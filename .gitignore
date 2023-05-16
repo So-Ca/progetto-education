@@ -1,2 +1,5 @@
+# ignore dev files
 /src/
+
+# ignore node files
 /node-modules/
