@@ -1,0 +1,30 @@
+ATTENZIONE
+
+Ho messo a posto le piccole correzioni che c'erano da fare riguardo la web app: 
+- mettere la funzione di cancella descrizione
+- aggiungere webpack al progetto.
+
+L'ho ovviamente caricato su github ed ho provato a publicarlo su netlify.
+
+Netlify si blocca sempre ad un certo punto del deploy, ma non dice che il deploy è fallito,
+semplicemente rimane bloccato li e bom.
+
+Ora, so che non dovrei consegnare il progetto senza averlo publicato su netlify, però in sostanza 
+anche dopo aver chiesto aiuto su discord ed aver fatto svariate ricerche su quale potrebbe essere
+il problema, non riesco a capire cosa c'è che non va.
+
+Ho apportato diverse modifiche ai file ed alle cartelle ed i percorsi per provare a risolvere il
+problema, ma comunque non è stato risolto, soprattutto perchè non capisco cosa c'è di sbagliato dato
+che la app funziona correttamente.
+
+Insomma consegno il progetto perchè è funzionante, se apro la web app funziona tutto, i file richiesti sono presenti
+nella repo di git e insomma le caratteristiche richieste per la consegna ci sono. Anche se so che dovrò 
+ri-consegnarlo un terza volta, vorrei un feedback da un coach che almeno mi instradi su quale possa essere la 
+causa del fatto che netlify non effettua il deploy.
+
+Anche perchè è letteralmente tutta la settimana che ci passo almeno 7 ore al giorno senza riuscire a 
+combinare molto, e dato che fino ad ora non ho avuto questi grossi problemi, mi sembra strano e chiedo
+aiuto per avere un idea di cosa sia successo.
+
+Grazie per l'attenzione.
+Sonny
