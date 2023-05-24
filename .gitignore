@@ -1,5 +1,2 @@
-# ignore dev files
-/src/
-
-# ignore node files
-/node-modules/
+# Dependency directories
+node_modules/

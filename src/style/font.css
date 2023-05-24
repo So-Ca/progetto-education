@@ -1,0 +1,35 @@
+/* Titles Font */
+@font-face{
+  font-family: 'Aretha Bridge';
+  src: url('../assets/font/Aretha\ Bridge.ttf') format('truetype');
+}
+/* Horror font */
+@font-face{
+  font-family: 'Bloodthirsty';
+  src: url('../assets/font/Bloodthirsty.ttf') format('truetype');
+}
+/* Fantasy font*/
+@font-face{
+  font-family: 'Alamak';
+  src: url('../assets/font/Alamak.ttf') format('truetype');
+}
+/* Crime font */
+@font-face{
+  font-family: 'Label';
+  src: url('../assets/font/Impact\ Label.ttf') format('truetype');
+}
+/* Science Fiction font */
+@font-face{
+  font-family: 'Squid';
+  src: url('../assets/font/Game\ Of\ Squids.ttf') format('truetype');
+}
+/* Art font */
+@font-face{
+  font-family: 'Riesling';
+  src: url('../assets/font/riesling.ttf') format('truetype');
+}
+/* Novel font */
+@font-face{
+  font-family: 'Road';
+  src: url('../assets/font/Across\ the\ Road.ttf') format('truetype');
+}
