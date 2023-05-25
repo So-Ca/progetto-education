@@ -38,7 +38,11 @@ const config = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: "src/assets/img/favicon.ico", to: "img/favicon.ico"}
+        { from: "src/assets/img/favicon.ico", to: "img/favicon.ico"},
+        { from: "src/assets/img/logo-so-ca.png", to: "img/logo-so-ca.png"},
+        { from: "src/assets/img/search-icon.svg", to: "img/search-icon.svg"},
+        { from: "src/assets/img/seeker.png", to: "img/seeker.png"},
+        { from: "src/assets/img/wallpaper.jpg", to: "img/wallpaper.jpg"}
       ]
     })
   ],

@@ -87,6 +87,7 @@ ul{
 
 li{
   cursor: pointer;
+  margin: 1%;
 }
 li:hover{
   text-decoration: underline solid black;
@@ -123,6 +124,8 @@ footer{
   justify-content: center;
   align-items: center;
   background:  rgba(97, 97, 97, 0.5);
+  border: 2px solid #ffe2c7;
+  border-radius: 30px;
 }
 
 .desc-btn{
@@ -138,6 +141,8 @@ footer{
 
 #book-description{
   background:  rgba(97, 97, 97, 0.5);
+  border: 2px solid #ffffff;
+  border-radius: 30px;
 }
 
 #logo{
@@ -535,4 +540,4 @@ footer{
   }
 }
 
-/*# sourceMappingURL=mainbbb43f236741ba1882a0.css.map*/
+/*# sourceMappingURL=main46515d0fb7729801bace.css.map*/
