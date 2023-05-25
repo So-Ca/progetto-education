@@ -1,0 +1,538 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(-90deg, rgba(82, 82, 82, 0.6) 0%, rgba(82, 82, 82, 0.6) 100%), url(img/wallpaper.jpg);
+  object-fit: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  display: flex;
+}
+header img{
+  max-width: 100px;
+  height: 70px;
+  margin: 5% 0 0 0;
+}
+
+h1{
+  font-family: "Aretha Bridge";
+  font-size: 7em;
+  margin: 5% 0 1% 20%;
+  text-align: center;
+  text-shadow: -1px 0 #FE8816, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #FE8816;
+}
+
+label{
+  margin: 1% auto 1% 25%;
+  font-size: 2.5em;
+  font-family: "Aretha Bridge";
+  font-weight: bold;
+}
+
+input{
+  margin: 1% auto 1% 1%;
+  padding: 20px;
+  width: 500px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 10px;
+}
+
+button{
+  margin: 0 0 1% 0;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background: #a88f78;
+  font-size: 1.5em;
+  position: relative;
+  cursor: pointer;
+}
+button:hover{
+  background: #ffffff;
+  border: 3px groove #FE8816;
+  box-shadow: 3px 3px 7px black;
+  transition: box-shadow 0.5s;
+}
+button:hover .search{
+  display: block;
+}
+button:active{
+  background: #ffffff;
+  border: 3px inset black;
+  box-shadow: 5px 5px 5px #FE8816;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+
+h2{
+  font-family: "Aretha Bridge";
+  font-size: 4em;
+  text-align: center;
+  margin: 2%;
+}
+
+ul{
+  font-family: 'Crimson Text', serif;
+  font-size: 1.5em;
+  margin: 2%;
+}
+
+li{
+  cursor: pointer;
+}
+li:hover{
+  text-decoration: underline solid black;
+  color: #f0a45d;
+}
+
+p{
+  font-family: 'Crimson Text', serif;
+  font-size: 2em;
+  text-align: justify;
+  margin: 1% 15% 3% 15%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(61, 61, 61, 0.562) 0%, rgba(97, 97, 97, 0.596) 100%);
+  border-top: 3px groove #532800;
+  padding: 30px;
+}
+
+.search{
+  display: none;
+  position: absolute;
+  top: 75px;
+  left: 1px;
+  background: #ffe2c7;
+  border-radius: 50px;
+  font-size: 0.8em;
+}
+
+.booklist-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:  rgba(97, 97, 97, 0.5);
+}
+
+.desc-btn{
+  margin: 0 0 0 1%;
+  padding: 0;
+  height: 30px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  font-size: 0.6em;
+  font-family: "Aretha Bridge";
+  font-weight: bold;
+}
+
+#book-description{
+  background:  rgba(97, 97, 97, 0.5);
+}
+
+#logo{
+  margin: 0 1%;
+  width: 20px;
+  height: 20px;
+}
+
+#copyright{
+  margin: 0;
+  font-size: 1.1em;
+  font-family: "Aretha Bridge";
+  font-weight: bold;
+  text-shadow: -1px 0 #FE8816, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #FE8816;
+}
+/* Titles Font */
+@font-face{
+  font-family: 'Aretha Bridge';
+  src: url("font/Aretha%20Bridge.ttf") format('truetype');
+}
+/* Horror font */
+@font-face{
+  font-family: 'Bloodthirsty';
+  src: url(font/Bloodthirsty.ttf) format('truetype');
+}
+/* Fantasy font*/
+@font-face{
+  font-family: 'Alamak';
+  src: url(font/Alamak.ttf) format('truetype');
+}
+/* Crime font */
+@font-face{
+  font-family: 'Label';
+  src: url("font/Impact%20Label.ttf") format('truetype');
+}
+/* Science Fiction font */
+@font-face{
+  font-family: 'Squid';
+  src: url("font/Game%20Of%20Squids.ttf") format('truetype');
+}
+/* Art font */
+@font-face{
+  font-family: 'Riesling';
+  src: url(font/riesling.ttf) format('truetype');
+}
+/* Novel font */
+@font-face{
+  font-family: 'Road';
+  src: url("font/Across%20the%20Road.ttf") format('truetype');
+}
+@media (max-width: 500px){
+  body{
+    background:  rgb(254, 136, 22, 0.1);
+  }
+
+  h1{
+    font-size: 3em;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  header{
+    margin: 5% 15%;
+  }
+
+  header img{
+    display: none;
+  }
+
+  label{
+    font-size: 1.3em;
+    margin: 0;
+  }
+
+  input{
+    padding: 5px;
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  button{
+    padding: 5px;
+    margin: 0;
+  }
+
+  ul{
+    font-size: 1.2em;
+
+  }
+
+  li{
+    cursor: default;
+  }
+  li:hover{
+    text-decoration: none;
+    color: currentColor;
+  }
+
+  .search-container{
+    margin: 1% 15%;
+  }
+
+  .booklist-container{
+    margin: 5%;
+  }
+
+  #book-description{
+    margin: 5%;
+  }
+
+  #copyright{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 750px){
+  body{
+    background:  rgb(254, 136, 22, 0.1);
+  }
+
+  h1{
+    font-size: 3em;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  header{
+    margin: 5% 15%;
+  }
+
+  header img{
+    display: none;
+  }
+
+  label{
+    font-size: 1.3em;
+    margin: 0;
+  }
+
+  input{
+    padding: 5px;
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  button{
+    padding: 5px;
+    margin: 0;
+  }
+
+  ul{
+    font-size: 1.2em;
+
+  }
+
+  li{
+    cursor: default;
+  }
+  li:hover{
+    text-decoration: none;
+    color: currentColor;
+  }
+
+  .search-container{
+    margin: 1% 15%;
+  }
+
+  .booklist-container{
+    margin: 5%;
+  }
+
+  #book-description{
+    margin: 5%;
+  }
+
+  #copyright{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 751px) and (max-width: 999px){
+  body{
+    background:  rgb(254, 136, 22, 0.1);
+  }
+
+  h1{
+    font-size: 3em;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  p{
+    font-size: 1.2em;
+  }
+
+  header{
+    margin: 5% 15%;
+  }
+
+  header img{
+    display: none;
+  }
+
+  label{
+    font-size: 1.3em;
+    margin: 0;
+  }
+
+  input{
+    padding: 5px;
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  button{
+    padding: 5px;
+    margin: 0;
+  }
+
+  ul{
+    font-size: 1.2em;
+
+  }
+
+  li{
+    cursor: default;
+  }
+  li:hover{
+    text-decoration: none;
+    color: currentColor;
+  }
+
+  .search-container{
+    margin: 1% 15%;
+  }
+
+  .booklist-container{
+    margin: 5%;
+  }
+
+  #book-description{
+    margin: 5%;
+  }
+
+  #copyright{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1300px){
+  h1{
+    font-size: 4em;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 2.5em;
+  }
+
+  p{
+    font-size: 1.5em;
+  }
+
+  header{
+    margin: 5% 30%;
+  }
+
+  header img{
+    margin-top: -2%;
+  }
+
+  label{
+    font-size: 1.3em;
+    margin: 0;
+  }
+
+  input{
+    padding: 10px;
+    width: 50%;
+    margin: 0;
+    font-size: 1em;
+  }
+
+  button{
+    padding: 5px;
+    margin: 0;
+  }
+
+  ul{
+    font-size: 1.5em;
+  }
+
+  li{
+    cursor: default;
+  }
+  li:hover{
+    text-decoration: none;
+    color: currentColor;
+  }
+
+  .search-container{
+    margin: 0 0 0 30%;
+  }
+
+  .booklist-container{
+    margin: 5%;
+  }
+
+  #book-description{
+    margin: 5%;
+  }
+
+  #copyright{
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 1300px){
+  h1{
+    font-size: 5em;
+    margin: 0;
+  }
+
+  h2{
+    font-size: 3em;
+  }
+
+  p{
+    font-size: 1.75em;
+  }
+
+  header{
+    margin: 5% 0 5% 25%;
+  }
+
+  header img{
+    margin-top: -3%;
+  }
+
+  label{
+    font-size: 1.5em;
+    margin: 1%;
+  }
+
+  input{
+    padding: 15px;
+    width: 50%;
+    margin: 0;
+    font-size: 1.5em;
+  }
+
+  button{
+    padding: 10px;
+    margin: 0;
+  }
+
+  ul{
+    font-size: 1.5em;
+  }
+
+  .search-container{
+    margin: 1% 0 1% 20%;
+  }
+
+  .booklist-container{
+    margin: 5%;
+  }
+
+  #book-description{
+    margin: 5%;
+  }
+
+  #copyright{
+    font-size: 1em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map*/
