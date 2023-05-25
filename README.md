@@ -62,6 +62,6 @@
   <a name="contacts"></a>
   <h3>Contacts</h3>
 
-  <a href="https://so-ca-book-finder.netlify.app/">The Book Seeker</a><br>
+  <a href="https://progetto-education.netlify.app/">The Book Seeker</a><br>
   <a href="so-ca-portfolio.netlify.app">Portfolio</a><br>
   <a href="https://www.linkedin.com/in/sonny-caputo-554315185">Likedin</a><br>
