@@ -8,6 +8,9 @@ document.getElementById("search-bar").addEventListener("keydown", function(e){
     searchBooks();
   }
 });
+document.getElementById("search").addEventListener("click", function(){
+    searchBooks();
+});
 
 function searchBooks(){
   const searchBar = document.getElementById("search-bar").value;
